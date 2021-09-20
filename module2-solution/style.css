@@ -1,200 +1,132 @@
-#title {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-* {
+*{
     box-sizing: border-box;
-}
-
-@media (min-width : 992px) {
-    #chicken,#beef,#sushi {
-        width: 28%;
-        border: 1px solid black;
-        float: left;
-        padding: 10px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(167, 163, 163);
-        margin: 2%;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* justify-content: center; */
-        /* white-space: normal; */
-        /* align-self: center; */
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  
+  .row{
+    width: 100%;
+  }
+  
+  .menu-title{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .container{
+   position: relative;
+   top:60px;
+   margin: 15px; 
+  }
+  
+  .item{
+    position: relative;
+    top: 0;
+    background-color:#999999;
+    margin: 15px;
+    padding: 25px;
+    border: 3px solid #000;
+  }
+  
+  .item p{
+    margin-top: 18px;
+    text-align: justify;
+    font-size:100%;
+  }
+  
+  .item-title{
+    position: absolute;
+    top:0;
+    right: 0px;
+    background: green; 
+    padding: 6px 90px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+  
+  #title-one {
+    background-color: #D59898;
+  } 
+  
+  #title-two{
+    background-color: #C14543;
+  }
+  
+  #title-two h3{
+    color: white;
+  }
+  
+  #title-three{
+    background-color: #E5D198;
+  }
+  
+  
+  /*------ Desktop ------*/
+  @media (min-width: 992px){
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;  
     }
-    
-    #hchicken{
-        position: absolute;
-        width: 5%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(194, 106, 154);
-        text-align: center;
-        left:25%;
-        top:12.3%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-1 {
+      width: 8.33%;
     }
-    
-    #hbeef{
-        position: absolute;
-        width: 5%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(151, 43, 43);
-        text-align: center;
-        left:56.7%;
-        top:12.3%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-2 {
+      width: 16.66%;
     }
-    
-    #hsushi{
-        position: absolute;
-        width: 5%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(231, 223, 107);
-        text-align: center;
-        left:88.5%;
-        top:12.3%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-3 {
+      width: 25%;
     }
-}
-
-@media (min-width : 768px) and (max-width : 991px) {
-    #chicken,#beef,#sushi {
-        width: 42%;
-        border: 1px solid black;
-        float: left;
-        padding: 10px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(167, 163, 163);
-        margin: 3%;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* justify-content: center; */
-        /* white-space: normal; */
-        /* align-self: center; */
+    .col-lg-4 {
+      width: 33.33%;
     }
-    
-    #sushi {
-        width: 90%;
-        border: 1px solid black;
-        float: left;
-        padding: 15px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(167, 163, 163);
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* justify-content: center; */
-        /* white-space: normal; */
-        /* align-self: center; */
+    .col-lg-5 {
+      width: 41.66%;
     }
-
-    #hchicken{
-        position: absolute;
-        width: 9%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(194, 106, 154);
-        text-align: center;
-        left:36%;
-        top:11.5%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-6 {
+      width: 50%;
     }
-    
-    #hbeef{
-        position: absolute;
-        width: 9%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(151, 43, 43);
-        text-align: center;
-        left:83%;
-        top:11.5%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-7 {
+      width: 58.33%;
     }
-    
-    #hsushi{
-        position: absolute;
-        width: 9%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(231, 223, 107);
-        text-align: center;
-        left:83%;
-        top:42%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-8 {
+      width: 66.66%;
     }
-}
-
-@media (max-width : 767px) {
-    #chicken,#beef,#sushi {
-        width: 28%;
-        border: 1px solid black;
-        float: left;
-        padding: 10px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(167, 163, 163);
-        margin: 2%;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* justify-content: center; */
-        /* white-space: normal; */
-        /* align-self: center; */
+    .col-lg-9 {
+      width: 74.99%;
     }
-    
-    #hchicken{
-        position: absolute;
-        width: 5%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(194, 106, 154);
-        text-align: center;
-        left:25%;
-        top:12.3%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-10 {
+      width: 83.33%;
     }
-    
-    #hbeef{
-        position: absolute;
-        width: 5%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(151, 43, 43);
-        text-align: center;
-        left:56.7%;
-        top:12.3%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-11 {
+      width: 91.66%;
     }
-    
-    #hsushi{
-        position: absolute;
-        width: 5%;
-        height: 2.5%;
-        margin: auto;
-        margin-top: 0%;
-        background: rgb(231, 223, 107);
-        text-align: center;
-        left:88.5%;
-        top:12.3%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
+    .col-lg-12 {
+      width: 100%;
     }
-}
-
+  
+  }
+  
+  
+  /*------ Tablet ------*/
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-lg-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-lg-tablet{
+     width: 100%;
+     float: left;
+   }
+  }
+  
+  
+  /*------ Mobile ------*/
+  @media (max-width: 767px){
+    .col-lg-4{
+      width: 100%;
+      float: left;
+    }
+  }
