@@ -1,0 +1,200 @@
+#title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width : 992px) {
+    #chicken,#beef,#sushi {
+        width: 28%;
+        border: 1px solid black;
+        float: left;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(167, 163, 163);
+        margin: 2%;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* white-space: normal; */
+        /* align-self: center; */
+    }
+    
+    #hchicken{
+        position: absolute;
+        width: 5%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(194, 106, 154);
+        text-align: center;
+        left:25%;
+        top:12.3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #hbeef{
+        position: absolute;
+        width: 5%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(151, 43, 43);
+        text-align: center;
+        left:56.7%;
+        top:12.3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #hsushi{
+        position: absolute;
+        width: 5%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(231, 223, 107);
+        text-align: center;
+        left:88.5%;
+        top:12.3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991px) {
+    #chicken,#beef,#sushi {
+        width: 42%;
+        border: 1px solid black;
+        float: left;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(167, 163, 163);
+        margin: 3%;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* white-space: normal; */
+        /* align-self: center; */
+    }
+    
+    #sushi {
+        width: 90%;
+        border: 1px solid black;
+        float: left;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(167, 163, 163);
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* white-space: normal; */
+        /* align-self: center; */
+    }
+
+    #hchicken{
+        position: absolute;
+        width: 9%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(194, 106, 154);
+        text-align: center;
+        left:36%;
+        top:11.5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #hbeef{
+        position: absolute;
+        width: 9%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(151, 43, 43);
+        text-align: center;
+        left:83%;
+        top:11.5%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #hsushi{
+        position: absolute;
+        width: 9%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(231, 223, 107);
+        text-align: center;
+        left:83%;
+        top:42%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
+@media (max-width : 767px) {
+    #chicken,#beef,#sushi {
+        width: 28%;
+        border: 1px solid black;
+        float: left;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(167, 163, 163);
+        margin: 2%;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* white-space: normal; */
+        /* align-self: center; */
+    }
+    
+    #hchicken{
+        position: absolute;
+        width: 5%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(194, 106, 154);
+        text-align: center;
+        left:25%;
+        top:12.3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #hbeef{
+        position: absolute;
+        width: 5%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(151, 43, 43);
+        text-align: center;
+        left:56.7%;
+        top:12.3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    #hsushi{
+        position: absolute;
+        width: 5%;
+        height: 2.5%;
+        margin: auto;
+        margin-top: 0%;
+        background: rgb(231, 223, 107);
+        text-align: center;
+        left:88.5%;
+        top:12.3%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
