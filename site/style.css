@@ -24,6 +24,17 @@ h3 {
     text-align: center;
 }
 
+#section1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#section2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#section3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 footer {
     background-color: snow;
     text-align: center;
@@ -43,6 +54,8 @@ body {
     height: 100vh;
     background-image: url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/05/Gradient-Roundup-Illustrator-01.jpg');
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .item-number p {
@@ -54,4 +67,38 @@ body {
 
 .unordered_list ul ul li:nth-child(2) {
     color: tomato;
+}
+
+#section3 > h3,
+#section2 > h3,
+#section1 > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body #middle {
+    color :yellow;
+    background-color: tan;
+    padding: 5px;
+    border: 5px salmon;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#p1,#p2,#p3 {
+    width: 33%;
+    /* border: 1px solid black; */
+    float: left;
+    padding: 10px;
+    color: black;
 }
