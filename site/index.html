@@ -7,27 +7,91 @@
 </head>
 
 <body>
-    <h1>Ceci est un test!</h1>
+    <h1 id="top">Ceci est un test!</h1>
     <h3>Test H3</h3>
     <div>TEST TEST div</div>
     <div>Ceci est <span> SPAN</span> un test </div>
     <div class="test_class">
         <div class="item-number">
             <p>Paragraphe 1</p>
-            <a href="www.google.com">
+            <a href="www.google.com" title="same dir link">
                 <span>lien produit 1</span>
             </a>
         </div>
         <div class="item-number">
             <p>Paragraphe 2</p>
-            <a href="www.google.com">
+            <a href="https://www.google.com" title="external link">
                 <span>lien produit 2</span>
             </a>
         </div>
     </div>
+    <div class="unordered list">
+        <ul>
+            <li>First element</li>
+            <li>Second element</li>
+            <li>Third
+                <ul>
+                    <li>Premier</li>
+                    <li>Second</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="ordered list">
+        <ol>
+            <li>First element</li>
+            <li>Second element</li>
+            <li>Third
+                <ol>
+                    <li>Premier</li>
+                    <li>Second</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <h1>Link same page</h1>
+    <section>
+        <ul>
+            <li><a href="#section1">section1</a></li>
+            <li><a href="#section2">section2</a></li>
+            <li><a href="#section3">section3</a></li>
+        </ul>
+    </section>
+
+    <section id="section1">
+        <h3>Section 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non sapien quis justo consectetur ultrices
+            ac eget risus. Nulla porta facilisis justo non egestas. Curabitur ullamcorper vestibulum egestas. Donec
+            vestibulum ultricies augue, id finibus velit laoreet at. Cras at nisi lacus. Ut porta felis ligula, non
+            auctor augue congue ultricies. Aenean dictum blandit ligula molestie efficitur. Vivamus semper, erat ut
+            volutpat interdum, mi felis consectetur ante, quis tempor mi diam in neque.</p>
+    </section>
+
+    <section id="section2">
+        <h3>Section 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non sapien quis justo consectetur ultrices
+            ac eget risus. Nulla porta facilisis justo non egestas. Curabitur ullamcorper vestibulum egestas. Donec
+            vestibulum ultricies augue, id finibus velit laoreet at. Cras at nisi lacus. Ut porta felis ligula, non
+            auctor augue congue ultricies. Aenean dictum blandit ligula molestie efficitur. Vivamus semper, erat ut
+            volutpat interdum, mi felis consectetur ante, quis tempor mi diam in neque.</p>
+    </section>
+
+    <section id="section3">
+        <h3>Section 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non sapien quis justo consectetur ultrices
+            ac eget risus. Nulla porta facilisis justo non egestas. Curabitur ullamcorper vestibulum egestas. Donec
+            vestibulum ultricies augue, id finibus velit laoreet at. Cras at nisi lacus. Ut porta felis ligula, non
+            auctor augue congue ultricies. Aenean dictum blandit ligula molestie efficitur. Vivamus semper, erat ut
+            volutpat interdum, mi felis consectetur ante, quis tempor mi diam in neque.
+        </p>
+    </section>
 </body>
 <footer>
     <hr>
+    <p>
+        <img src="HTML5_logo.png" width="200" height="200" alt="HTML5 logo">"
+    </p>
+    <a href="#top">Back to the top</a>
     <p>Tech mail : blablabla@blabla.com</p>
 </footer>
 
